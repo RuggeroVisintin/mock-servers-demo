@@ -1,0 +1,94 @@
+{
+  "uuid": "ffe6f060-5710-4a73-b8e9-8549f766146f",
+  "lastMigration": 33,
+  "name": "Geo",
+  "endpointPrefix": "v1/geo",
+  "latency": 0,
+  "port": 3003,
+  "hostname": "",
+  "folders": [],
+  "routes": [
+    {
+      "uuid": "3de624e8-9f90-40ca-a822-0c8ada9c2324",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "cities",
+      "responses": [
+        {
+          "uuid": "6ad34ad1-d87e-4ea4-b2c0-cfa46e598c02",
+          "body": "{\n    \"data\": [\n        {\n            \"id\": 60870,\n            \"wikiDataId\": \"Q3543\",\n            \"type\": \"CITY\",\n            \"city\": \"Potenza\",\n            \"name\": \"Potenza\",\n            \"country\": \"Italy\",\n            \"countryCode\": \"IT\",\n            \"region\": \"Basilicata\",\n            \"regionCode\": \"77\",\n            \"regionWdId\": \"Q1452\",\n            \"latitude\": 40.633333333,\n            \"longitude\": 15.8,\n            \"population\": 64406\n        },\n        {\n            \"id\": 60799,\n            \"wikiDataId\": \"Q83358\",\n            \"type\": \"CITY\",\n            \"city\": \"Potenza Picena\",\n            \"name\": \"Potenza Picena\",\n            \"country\": \"Italy\",\n            \"countryCode\": \"IT\",\n            \"region\": \"Marche\",\n            \"regionCode\": \"57\",\n            \"regionWdId\": \"Q1279\",\n            \"latitude\": 43.36625,\n            \"longitude\": 13.620338888,\n            \"population\": 15402\n        },\n        {\n            \"id\": 3567855,\n            \"wikiDataId\": \"Q16249\",\n            \"type\": \"ADM2\",\n            \"city\": \"province of Potenza\",\n            \"name\": \"province of Potenza\",\n            \"country\": \"Italy\",\n            \"countryCode\": \"IT\",\n            \"region\": \"Basilicata\",\n            \"regionCode\": \"77\",\n            \"regionWdId\": \"Q1452\",\n            \"latitude\": 40.46442,\n            \"longitude\": 15.89938,\n            \"population\": 384483\n        }\n    ],\n    \"metadata\": {\n        \"currentOffset\": 0,\n        \"totalCount\": 3\n    }\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
+    }
+  ],
+  "rootChildren": [
+    {
+      "type": "route",
+      "uuid": "3de624e8-9f90-40ca-a822-0c8ada9c2324"
+    }
+  ],
+  "proxyMode": false,
+  "proxyHost": "",
+  "proxyRemovePrefix": false,
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  },
+  "cors": true,
+  "headers": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    },
+    {
+      "key": "Access-Control-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "key": "Access-Control-Allow-Methods",
+      "value": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+    },
+    {
+      "key": "Access-Control-Allow-Headers",
+      "value": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With, X-RapidAPI-Key, X-RapidAPI-Host"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "data": [],
+  "callbacks": []
+}

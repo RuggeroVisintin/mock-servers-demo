@@ -1,7 +1,7 @@
 const express = require('express')
 const mockoon = require('@mockoon/serverless');
 
-const mockEnv = require('./configs/demo.json');
+const mockEnv = require('./configs/weather.json');
 
 const requestHandler = new mockoon.MockoonServerless(mockEnv).requestListener();
 
