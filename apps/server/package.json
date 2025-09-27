@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:weather": "node weather.js",
-    "start:geo": "node geo.js"
+    "start:weather": "node --watch weather.js",
+    "start:geo": "node --watch geo.js"
   },
   "author": "",
   "license": "ISC",
