@@ -3,7 +3,7 @@
   "lastMigration": 33,
   "name": "Geo",
   "endpointPrefix": "v1/geo",
-  "latency": 0,
+  "latency": 600,
   "port": 3003,
   "hostname": "",
   "folders": [],

@@ -3,7 +3,7 @@
   "lastMigration": 33,
   "name": "Weather forecast",
   "endpointPrefix": "data/2.5",
-  "latency": 0,
+  "latency": 300,
   "port": 3001,
   "hostname": "",
   "folders": [],
